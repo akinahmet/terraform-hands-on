@@ -2,7 +2,9 @@
 
 ## Terraform-01 : Terraform Installation and Basic Operations
 Install Terraform
+
 Build AWS Infrastructure with Terraform
+
 Creating a AWS S3 bucket
 
 
