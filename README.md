@@ -13,11 +13,21 @@ Creating a AWS S3 bucket
 
 Terraform Commands
 
-Variables
+Variables and locals
 
 Conditionals
 
 Loops
+
+Outputs
+
+Creating a AWS EC2 Instance and S3 bucket
+
+count
+
+for_each
+
+toset
 
 ## Terraform-03 : Terraform Data Sources, Remote Backend and Provisioners
 
@@ -27,8 +37,33 @@ Remote Backend
 
 Terraform Provisioners
 
+Creating S3 Bucket
+
+AWS S3 Bucket Server Side Encryption
+
+AWS S3 Bucket Versioning
+
+AWS DynamoDB Table for State Lock
+
+Associate S3 bucket with the Dynamodb table
+
+local-exec provisioner
+
+remote-exec provisioner
+
+file provisioner
+
+
 ## Terraform-04 : Terraform Modules and import
 
 Terraform Modules
 
 Terraform Import
+
+Creating AWS VPC
+
+Creating AWS Subnet
+
+AWS EC2 Instance 
+
+Creating Security Group
