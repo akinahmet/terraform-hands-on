@@ -71,3 +71,5 @@ Creating AWS Subnet
 AWS EC2 Instance 
 
 Creating Security Group
+
+Element function
