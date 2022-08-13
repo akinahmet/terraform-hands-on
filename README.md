@@ -25,6 +25,8 @@ Outputs
 
 Creating a AWS EC2 Instance and S3 bucket
 
+Add new AWS IAM users
+
 count
 
 for_each
