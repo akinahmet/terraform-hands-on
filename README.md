@@ -8,6 +8,8 @@ Build AWS Infrastructure with Terraform
 
 Creating a AWS S3 bucket
 
+Creating Github Repository
+
 
 ## Terraform-02 : Terraform Commands, Variables, Conditionals, Loops
 
