@@ -418,3 +418,34 @@ The `terraform destroy` command terminates resources defined in your Terraform c
 ```bash
 terraform destroy
 ```
+
+### Creating Github Repository with Terraform
+
+```bash
+
+terraform {
+  required_providers {
+    
+    github = {
+      source = "integrations/github"
+      version = "4.28.0"
+    }
+  }
+}
+
+
+provider "github" {
+  # Configuration options
+  token = "***pleaseenteryourgithubtoken***"
+}
+
+
+resource "github_repository" "myrepo" {
+  name        = "my_new_repo"
+  description = "My awesome codebase"
+
+  visibility = "public"
+}
+
+
+```
